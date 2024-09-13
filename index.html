@@ -221,12 +221,26 @@
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/f/xpwaereg">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                
+                <!-- First Name and Last Name Fields -->
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Your first name" required>
+    
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Your last name" required>
+    
+                <!-- Email Field -->
+                <label for="email">Your Email</label>
+                <input type="email" name="_replyto" id="email" placeholder="Your email" required>
+    
+                <!-- Message Field -->
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" placeholder="Your message" required></textarea>
+                
+                <!-- Submit Button -->
                 <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
