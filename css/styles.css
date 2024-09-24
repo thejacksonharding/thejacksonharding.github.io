@@ -662,14 +662,17 @@ footer {
     font-size: 1.75em;
   }
   #about {
-    padding: 50px 10px;
+    
     text-align: center;
     
   }
   #about p {
-    padding: 50px 10px;
+    
     text-align: center;
   }
+  .about-me-heading, .about-me-text {
+    margin-left: 0; /* Remove negative margin for medium screens */
+}
 }
 @media only screen and (max-width: 768px) {
   header {
