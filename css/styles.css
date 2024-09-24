@@ -662,12 +662,13 @@ footer {
     font-size: 1.75em;
   }
   #about {
-    text-align: right;
+    padding: 50px 10px;
+    text-align: center;
     
   }
   #about p {
-    
-    text-align: right;
+    padding: 50px 10px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 768px) {
