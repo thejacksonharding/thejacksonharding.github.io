@@ -641,6 +641,9 @@ footer {
   .vtimeline-content {
     margin-left: 70px;
   }
+  .about-me-heading, .about-me-text {
+    margin-left: 0; /* Remove negative margin for medium screens */
+  }
 }
 @media only screen and (max-width: 992px) {
   #lead {
@@ -672,7 +675,7 @@ footer {
   }
   .about-me-heading, .about-me-text {
     margin-left: 0; /* Remove negative margin for medium screens */
-}
+  }
 }
 @media only screen and (max-width: 768px) {
   header {
@@ -730,6 +733,9 @@ footer {
   .social {
     text-align: center;
   }
+  .about-me-heading, .about-me-text {
+    margin-left: 0; /* Remove negative margin for medium screens */
+  }
 }
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
@@ -741,5 +747,8 @@ footer {
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px;
+  }
+  .about-me-heading, .about-me-text {
+    margin-left: 0; /* Remove negative margin for medium screens */
   }
 }
