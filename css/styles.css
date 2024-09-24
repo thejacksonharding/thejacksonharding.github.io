@@ -663,9 +663,11 @@ footer {
   }
   #about {
     text-align: right;
+    margin-left: 30;
   }
   #about p {
     text-align: center;
+    margin-left: 30;
   }
 }
 @media only screen and (max-width: 768px) {
