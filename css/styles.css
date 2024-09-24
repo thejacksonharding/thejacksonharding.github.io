@@ -662,12 +662,12 @@ footer {
     font-size: 1.75em;
   }
   #about {
+    text-align: center;
     
-    margin-left: 30;
   }
   #about p {
     
-    margin-left: 30;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 768px) {
