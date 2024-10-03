@@ -710,8 +710,7 @@ img {
     margin-left: 70px;
   }
   img {
-    width: 30%; /* Make image larger on very small screens */
-    margin-left: 70px;
+    margin-left: 50px;
 }
 }
 @media only screen and (max-width: 992px) {
