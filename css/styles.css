@@ -646,16 +646,16 @@ img {
 @media only screen and (max-width: 992px) {
   img {
       width: 20%; /* Increase image size for smaller screens */
-      margin-left: 0; /* Reset margin for smaller screen */
+      margin-left: 30px; /* Reset margin for smaller screen */
   }
   
   .about-me-heading {
-      margin-left: 50; /* Remove negative margin on small screens */
+      margin-left: 50px; /* Remove negative margin on small screens */
       text-align: left; /* Center align the heading */
   }
   
   .about-me-text {
-      margin-left: 30; /* Remove negative margin */
+      margin-left: 30px; /* Remove negative margin */
       text-align: left; /* Center align the text */
       font-size: 16px; /* Adjust font size for better readability */
   }
