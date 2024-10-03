@@ -649,11 +649,11 @@ img {
   }
   
   .about-me-heading {
-      margin-left: 50px; /* Remove negative margin on small screens */
+      margin-left: -60px; /* Remove negative margin on small screens */
   }
   
   .about-me-text {
-      margin-left: 30px; /* Remove negative margin */
+      margin-left: -60px; /* Remove negative margin */
       font-size: 16px; /* Adjust font size for better readability */
   }
 }
