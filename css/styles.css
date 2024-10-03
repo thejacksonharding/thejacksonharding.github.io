@@ -642,7 +642,7 @@ footer {
     margin-left: 70px;
   }
   .about-me-heading, .about-me-text {
-    margin-left: 170; /* Remove negative margin for medium screens */
+    margin-left: 0; /* Remove negative margin for medium screens */
   }
 }
 @media only screen and (max-width: 992px) {
@@ -666,15 +666,16 @@ footer {
   }
   #about {
     
-    text-align: center;
+    text-align: right;
     
   }
   #about p {
     
-    text-align: center;
+    text-align: right;
   }
   .about-me-heading, .about-me-text {
-    margin-left: 170; /* Remove negative margin for medium screens */
+    margin-left: 0; /* Remove negative margin for medium screens */
+    text-align: right;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -734,7 +735,7 @@ footer {
     text-align: center;
   }
   .about-me-heading, .about-me-text {
-    margin-left: 170; /* Remove negative margin for medium screens */
+    margin-left: 0; /* Remove negative margin for medium screens */
   }
 }
 @media only screen and (max-width: 480px) {
@@ -749,6 +750,6 @@ footer {
     padding: 5px 10px;
   }
   .about-me-heading, .about-me-text {
-    margin-left: 170; /* Remove negative margin for medium screens */
+    margin-left: 0; /* Remove negative margin for medium screens */
   }
 }
