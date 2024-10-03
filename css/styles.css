@@ -643,20 +643,20 @@ img {
 }
 
 /* Responsive styles for screens smaller than 768px (e.g., tablets and mobile devices) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   img {
       width: 20%; /* Increase image size for smaller screens */
       margin-left: 0; /* Reset margin for smaller screen */
   }
   
   .about-me-heading {
-      margin-left: 0; /* Remove negative margin on small screens */
-      text-align: right; /* Center align the heading */
+      margin-left: 50; /* Remove negative margin on small screens */
+      text-align: left; /* Center align the heading */
   }
   
   .about-me-text {
-      margin-left: 0; /* Remove negative margin */
-      text-align: right; /* Center align the text */
+      margin-left: 30; /* Remove negative margin */
+      text-align: left; /* Center align the text */
       font-size: 16px; /* Adjust font size for better readability */
   }
 }
