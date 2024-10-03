@@ -708,9 +708,6 @@ img {
   .vtimeline-content {
     margin-left: 70px;
   }
-  .about-me-heading, .about-me-text {
-    margin-left: 0; /* Remove negative margin for medium screens */
-  }
 }
 @media only screen and (max-width: 992px) {
   #lead {
@@ -739,10 +736,6 @@ img {
   #about p {
     
     text-align: center;
-  }
-  .about-me-heading, .about-me-text {
-    margin-left: 0; /* Remove negative margin for medium screens */
-
   }
 }
 @media only screen and (max-width: 768px) {
@@ -801,9 +794,6 @@ img {
   .social {
     text-align: center;
   }
-  .about-me-heading, .about-me-text {
-    margin-left: 0; /* Remove negative margin for medium screens */
-  }
 }
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
@@ -815,8 +805,5 @@ img {
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px;
-  }
-  .about-me-heading, .about-me-text {
-    margin-left: 0; /* Remove negative margin for medium screens */
   }
 }
