@@ -651,12 +651,11 @@ img {
   
   .about-me-heading {
       margin-left: 50px; /* Remove negative margin on small screens */
-      text-align: left; /* Center align the heading */
+      
   }
   
   .about-me-text {
       margin-left: 30px; /* Remove negative margin */
-      text-align: left; /* Center align the text */
       font-size: 16px; /* Adjust font size for better readability */
   }
 }
