@@ -709,6 +709,10 @@ img {
   .vtimeline-content {
     margin-left: 70px;
   }
+  img {
+    width: 30%; /* Make image larger on very small screens */
+    margin-left: 70px;
+}
 }
 @media only screen and (max-width: 992px) {
   #lead {
