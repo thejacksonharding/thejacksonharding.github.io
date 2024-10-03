@@ -645,7 +645,7 @@ img {
 /* Responsive styles for screens smaller than 768px (e.g., tablets and mobile devices) */
 @media only screen and (max-width: 768px) {
   img {
-      width: 60%; /* Increase image size for smaller screens */
+      width: 40%; /* Increase image size for smaller screens */
       margin-left: 0; /* Reset margin for smaller screen */
   }
   
@@ -664,7 +664,7 @@ img {
 /* Even smaller screens (e.g., phones under 480px wide) */
 @media only screen and (max-width: 480px) {
   img {
-      width: 80%; /* Make image larger on very small screens */
+      width: 40%; /* Make image larger on very small screens */
   }
   
   .about-me-heading {
