@@ -677,7 +677,8 @@ img {
 /* Even smaller screens (e.g., phones under 480px wide) */
 @media only screen and (max-width: 480px) {
   img {
-      width: 20%; /* Make image larger on very small screens */
+      width: 30%; /* Make image larger on very small screens */
+      margin-left: 40px;
   }
   
   .about-me-heading {
