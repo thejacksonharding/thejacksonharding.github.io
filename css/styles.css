@@ -666,16 +666,15 @@ footer {
   }
   #about {
     
-    text-align: right;
+    text-align: center;
     
   }
   #about p {
     
-    text-align: right;
+    text-align: center;
   }
   .about-me-heading, .about-me-text {
     margin-left: 0; /* Remove negative margin for medium screens */
-    text-align: right;
   }
 }
 @media only screen and (max-width: 768px) {
