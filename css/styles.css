@@ -471,7 +471,7 @@ footer {
   margin-right: 20px; /* Add space between image and text */
 }
 .project-info {
-  position: absolute;
+  position: left;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
