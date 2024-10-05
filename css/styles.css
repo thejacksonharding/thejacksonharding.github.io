@@ -466,7 +466,7 @@ footer {
 }
 .project-image {
   float: left;
-  width: 200px; /* Set a fixed width for the image */
+  width: 100px; /* Set a fixed width for the image */
   height: auto; /* Maintain aspect ratio */
   margin-right: 20px; /* Add space between image and text */
 }
